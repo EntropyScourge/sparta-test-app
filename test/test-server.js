@@ -3,7 +3,7 @@ var chaiHttp = require('chai-http');
 var chaiJquery = require('chai-jquery');
 var server = require('../app');
 var should = chai.should();
-var assert = chai.assert();
+//var assert = chai.assert();
 
 chai.use(chaiHttp);
 
