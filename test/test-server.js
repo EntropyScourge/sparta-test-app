@@ -25,6 +25,12 @@ describe('Homepage', function() {
   });
 });
 
+describe('Fail test', function() {
+  it('should fail', function(done) {
+    assert.fail()
+  });
+});
+  
 // describe('Blog', function() {
 //   it('should display the list of posts at /posts GET', function(done) {
 //     chai.request(server)
